@@ -8,6 +8,9 @@ let sum = "";
     function _backspace(){
     sum =sum.substr(0,sum.length - 1);
     _yNm.value=sum;
+        if(_res.value!=""){
+            _res.value=""
+        }
     }
     function _reset(){
         _yNm.value="";
